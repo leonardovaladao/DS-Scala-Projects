@@ -1,6 +1,6 @@
-import MusicRecommenderModel.BasicScript
+import MusicRecommenderModel._
+
 object main extends App {
-  println("Beginning main file...")
-  BasicScript.main
+  val spark = getSpark.spark
 
 }
