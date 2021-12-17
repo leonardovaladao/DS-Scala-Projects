@@ -30,7 +30,7 @@ object getSpark {
 
     //spark.conf.set("spark.executor.memory", "12g")
     //spark.conf.set("spark.driver.memory", "12g")
-    spark.sparkContext.getConf.getAll.foreach(println)
+
     spark
   }
 }

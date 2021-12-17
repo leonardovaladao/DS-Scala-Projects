@@ -2,7 +2,7 @@ package MusicRecommenderModel
 
 import org.apache.spark.sql.SparkSession
 
-object BasicScript {
+object BasicScript extends App {
   def main(): Unit = {
     val spark =
       SparkSession
@@ -273,4 +273,5 @@ object BasicScript {
     spark.stop()
 
   }
+  main()
 }
